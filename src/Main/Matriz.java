@@ -22,10 +22,11 @@ public class Matriz {
 		for(int i = 0; i < n; i++) {
 			for(int j = 0; j < m; j++) {
 				System.out.print(matriz[i][j]+" ");				
+				
 			}
 		}
 		
-		System.out.printf("Busque um número na matriz: ");
+		System.out.printf("\nBusque um número na matriz: ");
 		int x = s.nextInt();
 		
 		for(int i = 0; i < matriz.length; i ++) {
