@@ -33,9 +33,9 @@ public class Matriz {
 			for(int j = 0; j < matriz[i].length; j++) {
 				if(matriz[i][j] == x) {
 					if(j > 0) System.out.println("A esquerda: "+matriz[i][j-1]);
-					if(i > 0) System.out.println("A cima: "+matriz[i-1][j]);
+					if(i > 0) System.out.println("Acima: "+matriz[i-1][j]);
 					if(j < matriz[i].length - 1) System.out.println("A direita: "+matriz[i][j+1]);
-					if(i < matriz[i].length - 1) System.out.println("A baixo: "+matriz[i+1][j]);
+					if(i < matriz[i].length - 1) System.out.println("Abaixo: "+matriz[i+1][j]);
 				}				
 			}
 		}
